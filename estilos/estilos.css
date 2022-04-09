@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+header{
+    background: linear-gradient(#35a, #11b);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content:space-around;
+    height: 20vmax;
+}
+
+header img.logo{
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+}
+main{
+    background-image: url(../imagenes/fondo3.jpg);
+    height: 60vmax;
+}
+h1{
+    text-align: center;
+    font-size: 2.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer{
+    background-color: #3d4;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    height: 10vmax;
+}
+h4{
+    text-align: center;
+    font-size: 2em;
+    align-self: center;
+}
